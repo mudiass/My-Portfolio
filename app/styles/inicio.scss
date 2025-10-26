@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    padding: 40px 32px;
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas: 
+        "matrix"
+        "buttons"
+        "experience"
+        "info"
+        ;
+}
+
+@media (man-width: 768px) {
+    .container {
+       padding: 70px 60px;
+       height: 100vh;
+       grid-template-rows: fit-content(100%) ;
+       grid-template-columns: 60% 40%;
+        grid-template-columns: repeat(1, auto);
+        align-items: center;
+        justify-items: start;
+        justify-content: space-between;
+        grid-template-areas: 
+            "matrix info"
+            "experience enpty-1"
+            "enpty-2 buttons"
+            ;
+    }
+}

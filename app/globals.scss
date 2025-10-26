@@ -1,0 +1,24 @@
+
+
+
+:root {
+  --text-primary: #087CA7;
+  --text-secundary: #033860;
+  --background-primary:#031A6B;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  
+}
+body {
+  background-color: var(--background-primary);
+  
+}
