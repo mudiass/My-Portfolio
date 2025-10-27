@@ -1,3 +1,4 @@
+import { Experiencia } from "./componentes/experience/experiencia";
 import { Matrix } from "./componentes/Matrix/matrix";
 import "./styles/inicio.scss";
 
@@ -6,12 +7,7 @@ export default function Home() {
   return (
    <main className="container">
     <Matrix/>
-    <div className="experience">
-      <h3>Experiencia</h3>
-      <p>Texto</p>
-      <div className="experience-time">
-
-      </div>
+    <Experiencia/>
       <div className="infos">
         <h3>Linguagem</h3>
         <div className="language-infos">
@@ -30,7 +26,7 @@ export default function Home() {
           </div>
           <button>contact me!</button>
         </div>
-    </div>
+    
     
     </main>
   );
